@@ -3,17 +3,20 @@
 //
 
 // stylelint-disable
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #eaf0fc;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
+$gray-100: #212121;  // Fondo oscuro
+$gray-200: #1a1a1a;  // Gris muy oscuro
+$gray-300: #2c2c2c;  // Gris oscuro
+$gray-400: #3b3b3b;
+$gray-500: #4d4d4d;
+$gray-600: #666666;  // Gris medio
+$gray-700: #808080;
+$gray-800: #999999;
+$gray-900: #b3b3b3;  // Texto gris claro
+
+$black: #000000;
+$red: #D32F2F;   // Rojo oscuro
+$orange: #F57C00; // Naranja oscuro
+
 
 $grays: ();
 $grays: map-merge((
@@ -57,14 +60,15 @@ $colors: map-merge((
 ), $colors);
 
 
-$primary:       $red;
-$secondary:     $gray-600;
-$success:       $green;
-$info:          $cyan;
-$warning:       $orange;
-$danger:        $red;
-$light:         $gray-100;
-$dark:          $gray-800;
+$primary:       $red;      // Rojo oscuro principal
+$secondary:     $gray-600; // Gris medio para elementos secundarios
+$success:       #388E3C;   // Verde oscuro
+$info:          #1976D2;   // Azul oscuro
+$warning:       $orange;   // Naranja oscuro
+$danger:        #B71C1C;   // Rojo intenso
+$light:         $gray-100; // Fondo oscuro
+$dark:          $black;    // Negro puro
+
 
 $theme-colors: ();
 // stylelint-disable-next-line scss/dollar-variable-default
