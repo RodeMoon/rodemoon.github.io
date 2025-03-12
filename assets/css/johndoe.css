@@ -27,14 +27,14 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #F85C70;
-  --secondary: #6c757d;
-  --success: #A3C14A;
-  --info: #47D8E0;
-  --warning: #FF8882;
-  --danger: #F85C70;
-  --light: #f8f9fa;
-  --dark: #343a40;
+  --primary: #D32F2F; /* Rojo oscuro */
+--secondary: #424242; /* Gris oscuro */
+--success: #388E3C; /* Verde oscuro */
+--danger: #B71C1C; /* Rojo intenso */
+--warning: #F57C00; /* Naranja oscuro */
+--info: #1976D2; /* Azul oscuro */
+--light: #212121; /* Casi negro (para fondos oscuros) */
+--dark: #000000; /* Negro */
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
